@@ -1,45 +1,12 @@
-#  PrimeVue + TailwindCSS v4 Example
-
-<br />
-
-<div align="start">
-  
-![PrimeVue Version](https://img.shields.io/badge/PrimeVue-v4.2.5-blue)
-![Tailwind Version](https://img.shields.io/badge/TailwindCSS-v4.0.6-38bdf8)
-![Vue Version](https://img.shields.io/badge/Vue.js-v3.4.27-42b883)
-![Vite Version](https://img.shields.io/badge/Vite-v5.2.13-646cff)
-
-</div>
-
-## Overview
-
-This example demonstrates how to integrate PrimeVue with TailwindCSS v4, showcasing a modern and responsive dashboard interface. The project features a dark/light theme toggle, responsive layout, and various PrimeVue components styled with TailwindCSS.
-
-## Features
-
-- Dark/Light theme support
-- Fully responsive design
-- PrimeVue components with TailwindCSS styling
-- Chart.js integration
-- Powered by Vite for fast development
-- Real-time search functionality
-- Customizable UI components
-
-## Tech Stack
-
-- [Vue.js](https://vuejs.org/) - The Progressive JavaScript Framework
-- [PrimeVue](https://primevue.org/) - The Ultimate Vue UI Component Library
-- [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework
-- [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
-- [Chart.js](https://www.chartjs.org/) - Simple yet flexible JavaScript charting
-
+# Flexnotes 
+Is minimal client for my flexnotes backend: [repo](https://github.com/krxxys/flexnotes) written with Vue/PrimeVue/Tailwind. Flexnotes-client includes login/register form with validation(yup and vee-validate). Markdown and katex support to write math notes. "Focus area" with pomodoro timer and todo system. It's just minimal and works as it should works :)
 ## Getting Started
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/primefaces/primevue-examples.git
-cd primevue-examples/vite-tailwindv4
+git clone https://github.com/krxxys/flexnotes-client.git
+cd  flexnotes-client
 ```
 
 2. Install dependencies:
@@ -59,22 +26,16 @@ npm run dev
 ```bash
 npm run build
 ```
+## Special thanks
+Special thanks to the PrimeVue + Tailwind project starter from PrimeVue repo that helped me to start building the client 
+https://github.com/primefaces/primevue-examples/tree/main/vite-tailwindv4
 
-## Project Structure
+## Tech Stack 
 
-```
-vite-tailwindv4/
-├── src/
-│   ├── components/         # Vue components
-│   ├── composables/        # Vue composables
-│   ├── assets/            # Static assets
-│   └── App.vue            # Root component
-├── public/                # Public static assets
-├── index.html            # Entry HTML file
-└── vite.config.js        # Vite configuration
-```
-
-## Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/primefaces/primevue-examples/issues).
+- [Vue.js](https://vuejs.org/) - The Progressive JavaScript Framework
+- [PrimeVue](https://primevue.org/) - The Ultimate Vue UI Component Library
+- [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework
+- [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
+- [Katex](https://katex.org/) - Katex langauge
+- [CodeMirror](https://codemirror.net/) - Editor libary that flexnotes uses
 
