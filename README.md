@@ -24,7 +24,8 @@ npm run dev
 4. Build for production:
 
 ```bash
-npm run build
+docker compose build 
+docker compose up
 ```
 ## Special thanks
 Special thanks to the PrimeVue + Tailwind project starter from PrimeVue repo that helped me to start building the client 
